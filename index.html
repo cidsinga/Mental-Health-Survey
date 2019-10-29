@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Mental Health Survey</h2>
+      </div>
+      <form id="mental-health-survey">
+        <div class="form-group">
+          <p>Take this brief survey to check your mental health:<br> Check all that apply...</p>
+          <h3>Do you:</h3>
+          <input type="checkbox" name="mental-health" value="3"> Feel Overwhelmed?<br>
+          <input type="checkbox" name="mental-health" value="3">Suffer from insomnia?<br>
+          <input type="checkbox" name="mental-health" value="3">Feel Depressed?<br>
+          <input type="checkbox" name="mental-health" value="3">Have High Blood Pressure?<br>
+          <input type="checkbox" name="mental-health" value="3">Suffer from Anxiety?<br>
+          <input type="checkbox" name="mental-health" value="3">Have Frequent Headaches?<br>
+          <input type="checkbox" name="mental-health" value="0">Meditate?<br>
+          <input type="checkbox" name="mental-health" value="0">Manage Time Well?<br>
+          <input type="checkbox" name="mental-health" value="0">Listen to relexing music?<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div class="show-me">
+      <span id="great-job">
+        <p><b>Grea job: Keep doing what you are doing!</b></p>
+      </span>
+      <br>
+      <span id="coping">
+        <p><b>Deal with It: Meditate</b></p>
+      </span>
+      <span id="therapist">
+        <p><b>See a therapist: Immediately</b></p>
+      </span>
+      </div>
+    </div>
+  </body>
+</html>
